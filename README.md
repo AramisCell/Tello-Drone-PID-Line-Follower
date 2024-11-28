@@ -1,2 +1,3 @@
 # Tello Drone PID Line Follower
+En este proyecto se presenta el desarrollo de un drone seguidor de línea, implementando tres sistemas de control PID independientes para regular el desplazamiento lateral, el avance y la orientación angular del drone. El objetivo principal del sistema es mantener al drone sobre una trayectoria definida, aún cuando se presenten perturbaciones exteriores, asegurando su estabilidad y precisión durante el vuelo. El sistema utiliza una cámara y la biblioteca OpenCV en Python para detectar y procesar la trayectoria, proporcionando retroalimentación en tiempo real a los controladores. Este enfoque permitió mitigar desviaciones laterales, reducir oscilaciones y garantizar un avance suave y estable a lo largo de la trayectoria.
 
